@@ -2,6 +2,7 @@
 using namespace std;
 //LIFO
 #define n 100
+template <class T>
 class arrofstack
 {
 int* a;
