@@ -16,9 +16,9 @@ vector<int> ngl(int a[],int n)
             v.push_back(-1);
             s.push(i);
         }
-        else if(!s.empty() && a[s.top()]<a[i])
+        else if(!s.empty() && a[s.top()]=<a[i])
         {
-            while(!s.empty() && a[s.top()]<a[i])
+            while(!s.empty() && a[s.top()]=<a[i])
             {
                 s.pop();
             }

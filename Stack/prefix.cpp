@@ -3,8 +3,6 @@
 #include <stack>
 using namespace std;
 
-
-
 int prefix(string st)
 {
     stack<int> s;
