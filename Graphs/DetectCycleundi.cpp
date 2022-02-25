@@ -5,14 +5,13 @@ using namespace std;
 
 class Graph
 {
+    public:
     int V;
     list<int> *adj;
-    bool isCyclicUtil(int v, bool visited[], int parent);
-
-public:
+    bool isCyclicUtil(int v, bool visited[], int parent);  
     Graph(int V);
     void addEdge(int v, int w);
-    bool isCyclic();
+    bool isCyclic();   
 };
 
 Graph::Graph(int V)
