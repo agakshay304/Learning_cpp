@@ -12,7 +12,7 @@ void subset(char a[],int n )
             {
                 cout<<a[j]<<endl;
             }
-        }cout<<endl;
+        }
     }
 }
 
@@ -21,7 +21,7 @@ void subset(char a[],int n )
 int main()
 {
 
-    char a[4]={'a','b','c','d'};
+    char a[4]={'1','2','3','4'};
     
     subset(a,4);
 
