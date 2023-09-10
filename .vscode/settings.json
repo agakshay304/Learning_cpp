@@ -1,7 +1,11 @@
 {
-    "C_Cpp.errorSquiggles": "Disabled",
-    "files.associations": {
-        "*.ejs": "html",
-        "vector": "cpp"
-    }
+  "C_Cpp.errorSquiggles": "Disabled",
+  "files.associations": {
+    "*.ejs": "html",
+    "vector": "cpp"
+  },
+  "files.exclude": {
+    "**/*.o": true,
+    "**/*.obj": true
+  }
 }
