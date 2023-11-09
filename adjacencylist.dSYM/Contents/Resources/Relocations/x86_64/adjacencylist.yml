@@ -1,0 +1,11 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/akshay/Desktop/DSA/adjacencylist'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _newAdjListNode, symObjAddr: 0x0, symBinAddr: 0x100003CE0, symSize: 0x40 }
+  - { offsetInCU: 0xAE, offset: 0xAE, size: 0x8, addend: 0x0, symName: _newAdjListNode, symObjAddr: 0x0, symBinAddr: 0x100003CE0, symSize: 0x40 }
+  - { offsetInCU: 0xE4, offset: 0xE4, size: 0x8, addend: 0x0, symName: _createGraph, symObjAddr: 0x40, symBinAddr: 0x100003D20, symSize: 0x80 }
+  - { offsetInCU: 0x128, offset: 0x128, size: 0x8, addend: 0x0, symName: _addEdge, symObjAddr: 0xC0, symBinAddr: 0x100003DA0, symSize: 0x90 }
+  - { offsetInCU: 0x176, offset: 0x176, size: 0x8, addend: 0x0, symName: _printGraph, symObjAddr: 0x150, symBinAddr: 0x100003E30, symSize: 0xA0 }
+  - { offsetInCU: 0x1C4, offset: 0x1C4, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x1F0, symBinAddr: 0x100003ED0, symSize: 0x94 }
+...
