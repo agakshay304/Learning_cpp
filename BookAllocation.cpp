@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 bool isvalid(int a[],int n,int m,int min)
 {
     int isstudentreq=1;
